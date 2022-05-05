@@ -88,7 +88,7 @@ The cameras send a request to me server every 30 minutes if they should make a p
 
 To regocnise the numbers, these are cutted out of the image. If the settings dosn't fit to your images, adjust them. You can adjust the reference point in mqtt_main.py 
 - Watermeter: dot above m^3
-- Gasmeter: upper left edge (red sqare) <img src="./images/refpoint_gas.png" width="200"> 
+- Gasmeter: upper left edge (red sqare) <img src="./images/refpoint_gas.PNG" width="200"> 
 
 Acknowledgements: [jomjol](https://github.com/jomjol/water-meter-system-complete) The model trained by jomjol is used to recognise the numbers and analog neddles.
  
