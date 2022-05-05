@@ -222,7 +222,7 @@ class Water_Meter:
         height = 41
         i = 0
         for digital_point in digital_points:
-           img_num = self.img [self.refpoint[1]+ digital_point[1] : self.refpoint[1]+ digital_point[1]+ height,
+           img_num = self.img [self.refpoint[1]- digital_point[1] : self.refpoint[1]- digital_point[1]+ height,
                                     self.refpoint[0]-digital_point[0] : self.refpoint[0]-digital_point[0]+width] # h/b (y/x)
            img_num = imgprocess.process_img(img_num, False)
            cv2.imwrite("./img/temp_water"+ str(i) +".jpg",img_num)
