@@ -13,6 +13,7 @@ The System is based on python 3.7. Following packages are needed:
 - mysql-connector
 - paho-mqtt
 - opencv-python
+- pillow
 - pytz
 
 Additionally you need a mysql database. (e.g using xampp or set up a mysql databse on a raspberry pi) Your database should contain a table named "cam_data_gas_water_meter" with the following structure: 
